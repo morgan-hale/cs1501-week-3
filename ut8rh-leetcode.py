@@ -1,22 +1,15 @@
 # Umika Tunuguntla (ut8rh)
 
 class Solution(object):
-    def plusOne(self, digits):
+    def lengthOfLastWord(self, s):
         """
-        :type digits: List[int]
-        :rtype: List[int]
+        :type s: str
+        :rtype: int
         """
         
-        vals = " "
-
-        for x in digits:
-            vals += str(x)
-        int1 = int(vals) 
-        final = str(int1+1)
+        arr= []
         
-        
-        lastA=[int(x) for x in final]
-        
-        
-        return lastA
+        arr= (s.strip()).split(" ")
+        index = len(arr) - 1
+        return len(arr[index])
         

@@ -1,8 +1,7 @@
 Umika Tunuguntla ut8rh
 
-https://leetcode.com/problems/plus-one/
+https://leetcode.com/problems/length-of-last-word/
 
-You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
+Given a string s consisting of some words separated by some number of spaces, return the length of the last word in the string.
 
-Increment the large integer by one and return the resulting array of digits.
-
+A word is a maximal substring consisting of non-space characters only.
